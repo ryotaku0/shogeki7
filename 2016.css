@@ -1,0 +1,124 @@
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.sixteen-wrapper{
+  
+  text-align:center;
+  background-color:white;
+
+}
+.sixteen-member{
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+ h2{
+  padding:80px 0 50px 0;
+  font-weight:normal;
+  color:#5f5d60;
+  font-size:50px;
+}
+.member{
+ 
+  width:25%;
+  float:left;
+}
+.member-text{
+  width:80%;
+  margin-top:15px;
+  display:inline-block;
+  font-size:13px;
+  color:#b3aeb5;
+}
+.member-icon{
+  position:relative;
+  
+}
+.member-icon p{
+  position:absolute;
+  top:45%;
+  width:45%;
+  color:white;
+  background-color:rgba(30, 195, 228, 0.4);
+  margin-left:80px;
+  margin-top:40px;
+  border-radius: 10px;;
+}
+.clear{
+  clear:left;
+}
+.start{
+  display:inline-block;
+  padding-bottom:45px;
+}
+body{
+  width:100%;
+  margin: 0em;
+ 
+}
+header{
+  position:fixed;
+  top:0;
+  left:0;
+ background-color:rgba(173, 7, 250, 0.4);
+ 
+  height:100px;
+  width:100%;
+  border-bottom:2px solid white;
+  
+  z-index: 10;
+  
+}
+.header-logo{
+  float: left;
+  height:100px;
+  width:100px;
+  
+ 
+}
+.menu {
+  float:left;
+  margin-left:130px;
+}
+.icons{
+  float:right;
+  padding:20px;
+  padding-left:40px;
+  margin-right:30px;
+}
+.icon{
+  display:inline-block;
+  margin-top:15px;
+}
+
+.menu-name{
+  display:inline-block;
+  color:white;
+  padding-left:100px;
+  margin-top:15px;
+  text-align:center;
+  font-size:30px;
+  font-family: 'Bangers', cursive;
+  text-decoration:none;
+}
+.menu-name:hover{
+color:blue;
+}
+
+.fa{
+
+  color:white;
+  padding-left:50px;
+  font-size:30px;
+
+}
+.fa-envelope-o:hover{
+  color:red;
+}
+.fa-twitter:hover{
+color:#55acee;
+}
+.fa-facebook:hover{
+  color:#3b5988;
+}

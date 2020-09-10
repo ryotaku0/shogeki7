@@ -1,0 +1,99 @@
+body{
+  width:100%;
+  margin: 0em;
+ 
+}
+header{
+  
+ background-color:rgba(34,49,52, 0.4);
+ 
+  height:100px;
+  width:100%;
+  border-bottom:2px solid white;
+  
+  z-index: 10;
+  
+}
+.header-logo{
+  float: left;
+  height:100px;
+  width:100px;
+  
+ 
+}
+.menu {
+  float:left;
+  margin-left:130px;
+}
+.icons{
+  float:right;
+  padding:20px;
+  padding-left:40px;
+  margin-right:50px;
+}
+.icon{
+  display:inline-block;
+  margin-top:15px;
+}
+
+.menu-name{
+  display:inline-block;
+  color:white;
+  padding-left:100px;
+  margin-top:15px;
+  text-align:center;
+  font-size:30px;
+  font-family: 'Bangers', cursive;
+  text-decoration:none;
+}
+.menu-name:hover{
+color:blue;
+}
+
+.fa{
+
+  color:white;
+  padding-left:50px;
+  font-size:30px;
+
+}
+.fa-envelope-o:hover{
+  color:red;
+}
+.fa-twitter:hover{
+color:#55acee;
+}
+.fa-facebook:hover{
+  color:#3b5988;
+}
+
+.wrapper{
+    position:fixed;
+   top:0;
+    left:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height: auto;
+    z-index: -100;
+   
+}
+#video {
+  background: url('/video_bg.jpg') no-repeat;
+  background-attachment: fixed; 
+  background-position: center center; 
+  background-size: cover; 
+  left: 0;
+  
+  min-height: 100%;
+  min-height: 80vh;
+  min-width: 100%;
+  min-width: 100vw;
+  
+  position: absolute;
+  top: 0;
+  
+ 
+  z-index: 1;
+}
